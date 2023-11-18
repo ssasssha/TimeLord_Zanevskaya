@@ -15,7 +15,8 @@
         <Button x:Name="start" Click="StartStopwatch" Content="Начать" HorizontalAlignment="Center"
                 VerticalAlignment="Center" Margin="280,312,402.4,72.6" Width="100" Height="25" Background="White"
                 Foreground="#FFE8E100"/>
-        <Button Content="Интервал" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="410,312,272,72.6"
+        <Button Click="Interval" Content="Интервал" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="410,312,272,72.6"
                 Width="100" Height="25" Background="White" Foreground="#FFE8E100"/>
+        <ListBox x:Name="interval" Margin="331,167,331,0" Background="Beige" VerticalAlignment="Top" Height="130"/>
     </Grid>
 </Page>

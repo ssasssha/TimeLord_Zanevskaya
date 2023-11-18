@@ -8,5 +8,6 @@
         Title="Time Lord" Height="450" MinHeight="450" Width="800" MinWidth="800">
     <Grid>
         <Frame x:Name="frame" NavigationUIVisibility="Hidden"/>
+        <Button Click="Page_switch" Margin="66,248,0,0" Content="Таймер" VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="btnSwitch" Background="LightCoral" Height="28" Width="138"/>
     </Grid>
 </Window>

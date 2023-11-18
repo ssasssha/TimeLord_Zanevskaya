@@ -1,0 +1,19 @@
+﻿<Page x:Class="TimeLord_Zanevskaya.Pages.Timer"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TimeLord_Zanevskaya.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="410" d:DesignWidth="782"
+      Title="Timer">
+
+    <Grid Background="Yellow">
+        <Label x:Name="time" Content="00:00:00" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,95,0,0" Foreground="White" FontSize="48" Width="204"/>
+        <Button x:Name="start" Click="StartTimer" Content="Запуск" HorizontalAlignment="Left"
+              VerticalAlignment="Top" Margin="322,251,0,0" Width="100" Height="25" Background="White" Foreground="Bisque"/>
+        <TextBox x:Name="hoursTim" Margin="291,189,427,190"/>
+        <TextBox x:Name="minutesTim" Margin="360,189,358,190"/>
+        <TextBox x:Name="secondsTim" Margin="429,189,289,190"/>
+    </Grid>
+</Page>

@@ -69,6 +69,19 @@ namespace TimeLord_Zanevskaya.Pages
             }
         }
 
-        
+        private void Interval(object sender, RoutedEventArgs e)
+        {
+            if (interval.Items.Count >= 1)
+            {
+                string[] lastItem = time.Content.ToString().Split(':');
+                string[] secondLastItem = interval.Items[interval.Items.Count - 1].ToString().Split(':');
+
+                interval.Items.Add(time.Content.ToString());
+            }
+            else
+            {
+                interval.Items.Add(time.Content.ToString());
+            }
+        }
     }
 }
